@@ -1,0 +1,208 @@
+html, body{
+	background: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif; 
+}
+
+/* bannière */
+
+.banner{
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	}
+
+.banner .text{
+	background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%;
+}
+
+#balloon{
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1, h2{
+	text-align: center;
+	letter-spacing: 10px;
+	text-shadow: 3px 2px 4px lightgrey;
+}
+
+/* intro wishes */
+
+.whitespace {
+	height: 100px;
+}
+
+.contient-citation-image{
+	display: flex;
+	position: relative;
+	height: 300px;
+	widows: 600px;
+	flex-direction: column !important;
+	align-items: center; 
+	align-content: space-around !important;
+	}
+
+.carousel-caption {
+    bottom: 120px !important;
+}
+
+	.carousel-caption h5{
+		font-size: 32px;
+		color: white;
+		text-align: center;
+		font-weight: bold; 
+	}
+
+
+.carousel-control-prev-icon{
+    background-image: url(images/arleft.png) !important;
+    width: 64px !important;
+    height: 64px !important;
+}
+
+
+.carousel-control-next-icon {
+     background-image: url(images/arright.png) !important;
+     width: 64px !important;
+     height: 64px !important;
+ }
+
+h3, h5 {
+	color: black;
+	text-shadow: 5px 3px 5px white;
+}
+
+/* wishes */
+
+.corps {
+	margin: -100px;
+}
+
+
+#photo1, #photo2, #photo3 {
+	height: 200px;
+	width: 700px;
+	object-fit: cover;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 5px; 
+	border-radius: 15px;
+}
+
+.bucket1, .bucket2, .bucket3 {
+	display: block;
+	background-color: white;
+	text-align: center;
+	margin: auto;
+	margin-top: 160px;
+	text-indent: 50px;
+	height: 200px;
+	width: 700px;
+}
+
+/*Barre horizontale réseaux*/
+
+.reseaux {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 300px auto 50px auto;
+	justify-content: space-around; 
+}
+
+.social {
+	position: relative;
+	background-color: rgba(0,0,0,0.2);
+	width: 40px;
+	height: 40px; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+	opacity: 0.5;
+}
+
+.social img{
+	z-index: 2;
+	width: 30px;
+	height: 30px;
+}
+
+
+ .fond_fb, .fond_twi, .fond_insta, .fond_in {
+ 	 top: -40px;
+ 	 z-index: 1;
+ 	 display: block;
+ 	 height:  40px;
+ 	 width: 40px;
+	 position: absolute;
+ 	 transition: 0.5s;
+ }
+
+
+.bg-fb:hover {
+	opacity: 1;
+}
+
+.bg-twi:hover {
+	opacity: 1;
+}
+
+.bg-insta:hover {
+	opacity: 1;
+}
+
+.bg-in:hover {
+	opacity: 1;
+}
+
+
+/* Carousel */
+
+div.carousel-inner{
+	justify-content:center;
+	height:100%;
+	width: 100%;
+	color:white;
+}
+
+div.carousel-caption{
+	justify-content: end;
+	height:55%;
+	width: 60%;
+	color:white;
+}
+
+div.item-active{
+	justify-content: end;
+	height:55%;
+	width: 66%;
+	color:rgb(2, 0, 0);
+}
+
+div.carousel{
+	height:400px;
+	width: 900px;
+	margin-left: auto;
+	color: #FFF;
+    margin-right: auto;
+    margin-top: 50px ;
+
+}
